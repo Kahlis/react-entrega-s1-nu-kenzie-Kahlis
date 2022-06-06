@@ -1,0 +1,60 @@
+.total-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 20vw;
+    max-width: 350px;
+    padding: 10px;
+    margin: 20px 0;
+
+    width: calc(94vw - 10px);
+    height: fit-content;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #212529;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    color: #343A40;
+}
+
+.value {
+    height: 70px;
+    color: #FD377E;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 780px) {
+    .total-container {
+        margin: 40px 55px;
+        transform: scale(1.2);
+    }
+}

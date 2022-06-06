@@ -1,0 +1,129 @@
+.logo {
+    width: 123px;
+    height: 20px;
+}
+
+.home-button {
+    background-color: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    width: 64px;
+    height: 35px;
+}
+
+.newValue {
+    width: 20vw;
+    max-width: 350px;
+    padding: 10px;
+    margin: 20px 0;
+    width: calc(94vw - 10px);
+    height: fit-content;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.example {
+    color: #868E96;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#description {
+    display: block;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+}
+
+.half-sized {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+#value {
+    display: block;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+}
+
+select {
+    display: block;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+}
+
+.half {
+    width: 43%;
+}
+
+.submitValue {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    color: white;
+
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.submitValue:hover {
+    cursor: pointer;
+    background: #d33d74;
+}
+
+@media screen and (min-width: 780px) {
+    .newValue {
+        margin: 40px 55px;
+        transform: scale(1.2);
+        border: calc(1px / 1.2) solid #E9ECEF;
+    }
+}
